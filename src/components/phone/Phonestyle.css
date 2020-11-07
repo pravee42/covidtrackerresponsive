@@ -1,0 +1,162 @@
+.HomePageContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+    align-items: center;
+    place-items: center;
+}
+
+.title {
+    color: #F44336;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.HomePageContainer-1 {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.HomePageContainer-2 {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.phone-cases {
+    border-radius: 10px 10px 0 0;
+    margin-left: 3px;
+    margin-right: 3px;
+    padding: 5px;
+    height: 180px;
+    width: 185px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: #09480c;
+    background-color: #8bc34a80;
+    border-bottom: solid;
+    border-bottom-color: #09480c;
+}
+
+.count {
+    margin-top: 20px;
+    font-size: 33px;
+    color: black;
+}
+
+.phone-active {
+    border-radius: 10px 10px 0 0;
+    margin-left: 3px;
+    margin-right: 3px;
+    padding: 5px;
+    height: 180px;
+    width: 185px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: #014479;
+    border-bottom: solid;
+    border-bottom-color: #014479;
+    background-color: #03a9f44d;
+}
+
+.phone-recovered {
+    border-radius: 10px 10px 0 0;
+    margin-left: 3px;
+    margin-right: 3px;
+    padding: 5px;
+    height: 180px;
+    width: 185px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: #f73b00;
+    border-bottom: solid;
+    border-bottom-color: #f73b00;
+    background-color: #ff57228a;
+}
+
+.phone-rectoday {
+    color: black;
+    font-size: 25px;
+}
+
+.phone-rec {
+    font-size: 32px;
+    margin-top: -25px;
+    color: darkred;
+}
+
+.phone-deaths {
+    border-radius: 10px 10px 0 0;
+    margin-left: 3px;
+    margin-right: 3px;
+    padding: 5px;
+    height: 180px;
+    width: 185px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    border-bottom: solid;
+    border-bottom-color: #ff0057;
+    color: #ff0057;
+    background-color: #e91e637d;
+}
+
+.phone-detoday {
+    color: black;
+    font-size: 25px;
+}
+
+.phone-death {
+    color: #70063e;
+    font-size: 32px;
+    margin-top: -15px;
+
+}
+
+.phone-liveUpdate {
+    margin-top: 7px;
+    font-size: 25px;
+    color: black;
+}
+
+.phone-activeCases {
+    font-size: 30px;
+    color: #063d44;
+    margin-top: -20px;
+}
+
+.divider {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: black;
+}
+
+.phone-caseschart {
+    border: solid;
+    padding: 6px;
+    border-radius: 10px;
+    margin: 20px 5px 10px 5px;
+}
+
+.phone-deathschart {
+    border: solid;
+    padding: 6px;
+    border-radius: 10px;
+    margin: 20px 5px 10px 5px;
+}
+
+.phone-recoveredchart {
+    border: solid;
+    padding: 6px;
+    border-radius: 10px;
+    margin: 20px 5px 10px 5px;
+}

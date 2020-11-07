@@ -1,0 +1,28 @@
+.main-body {
+    align-items: center;
+    text-align: center;
+    margin: 10px 20px 10px 20px;
+}
+
+.phone-navbar {
+    display: flex;
+    background-color: black;
+    color: white;
+    align-items: center;
+    margin: 0 0 10px 0;
+}
+
+.phone-navbar ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.phone-navbar li {
+    list-style: none;
+}
+
+.td {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}

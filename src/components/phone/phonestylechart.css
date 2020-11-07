@@ -1,0 +1,13 @@
+.mapschange {
+    margin-top: 50px;
+}
+
+.mapschange {
+    display: block;
+    width: auto;
+    height: auto;
+    border: solid;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: #f09b08;
+}

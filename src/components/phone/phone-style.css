@@ -1,0 +1,163 @@
+.phonecountry-container {
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    border-color: black;
+    place-items: center;
+}
+
+/*  */
+.phonebutton-values {
+    margin-top: 10px;
+}
+
+/*  */
+.phonesearch-textbox {
+    margin: 0;
+    max-width: 100%;
+    flex: 1 0 auto;
+    outline: 0;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    text-align: left;
+    line-height: 1.21428571em;
+    font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    padding: .67857143em 1em;
+    background: #fff;
+    border: 1px solid rgba(34, 36, 38, .15);
+    color: rgba(0, 0, 0, .87);
+    border-radius: .28571429rem;
+    transition: box-shadow .1s ease, border-color .1s ease;
+    box-shadow: none;
+}
+
+/*  */
+.phonesearch-button {
+    border: none;
+    padding: 10px;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: large;
+    background-color: #8bc34a;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.phonesearch-button:focus {
+    outline: none;
+}
+
+.phonesearch-button:hover {
+    color: white;
+    background-color: blueviolet;
+}
+
+/*  */
+.phonesearch-container {
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*  */
+.phonecountry-details {
+    background-color: darkorange;
+    height: 40vh;
+    border: none;
+    border-radius: 10px 10px 0 0;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid;
+    border-bottom-color: red;
+    text-align: center;
+}
+
+/*  */
+.phonecases {
+    padding: 4px;
+    color: black;
+    font-weight: bolder;
+    font-size: larger;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/*  */
+.phonecountry-name {
+    height: 27px;
+    padding: 4px;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+    bottom: 0;
+    position: relative;
+}
+
+/* www */
+.phonecountryComponent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/*  */
+/* .phonemapschange {} */
+
+/*  */
+.phonemapschange {
+    max-height: 210px;
+    padding: 10px;
+    border-radius: 8px;
+    border-width: 2px;
+    border-color: #ff9800;
+    margin-top: 10px;
+}
+
+/*  */
+.phonecountryNameComponent {
+    margin-top: 60px;
+    max-height: 210px;
+    padding: 10px;
+    border: solid;
+    border-radius: 8px;
+    border-width: 2px;
+    border-color: darkorange;
+    background-color: #e5ce74;
+    color: tomato;
+    font-weight: bold;
+}
+
+/*  */
+.phoneRecovered {
+    margin-top: 60px;
+    max-height: 210px;
+    padding: 10px;
+    border: solid;
+    border-radius: 8px;
+    border-width: 2px;
+    border-color: #a326b2;
+}
+
+.phonecases11 {
+    margin-top: 60px;
+    max-height: 210px;
+    padding: 10px;
+    border: solid;
+    border-radius: 8px;
+    border-width: 2px;
+    border-color: #ff9800;
+}
+
+/*  */
+.phonedeaths {
+    margin-top: 60px;
+    max-height: 210px;
+    padding: 10px;
+    border: solid;
+    border-radius: 8px;
+    border-width: 2px;
+    border-color: #0a6b35;
+}

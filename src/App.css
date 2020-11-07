@@ -1,0 +1,63 @@
+.App {
+  text-align: left;
+}
+
+/* .navbar {
+  display: flex;
+  flex-direction: row;
+} */
+
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+
+
+}
+
+.td {
+  color: black;
+  text-decoration: none;
+  width: 100%;
+  display: unset;
+  padding: 10px 10px 10px 10px;
+  margin-right: 50px;
+  font-size: larger;
+
+}
+
+.navbar ul li {
+  list-style: none;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+
+
+
+.navbar {
+  border: none;
+  border-bottom: solid;
+  border-bottom-width: 3px;
+  margin-bottom: 18px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #00968875;
+}
+
+.main-body {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.phone-body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px;
+}
